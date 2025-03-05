@@ -1,0 +1,11 @@
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\bin\Debug\net8.0\LegionHub.Infra.Data.deps.json
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\bin\Debug\net8.0\LegionHub.Infra.Data.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\bin\Debug\net8.0\LegionHub.Infra.Data.pdb
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\LegionHub.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\LegionHub.Infra.Data.AssemblyInfoInputs.cache
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\LegionHub.Infra.Data.AssemblyInfo.cs
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\LegionHub.Infra.Data.csproj.CoreCompileInputs.cache
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\LegionHub.Infra.Data.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\refint\LegionHub.Infra.Data.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\LegionHub.Infra.Data.pdb
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Infra.Data\obj\Debug\net8.0\ref\LegionHub.Infra.Data.dll

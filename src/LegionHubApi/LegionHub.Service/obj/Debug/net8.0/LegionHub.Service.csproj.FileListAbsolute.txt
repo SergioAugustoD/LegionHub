@@ -1,0 +1,11 @@
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\bin\Debug\net8.0\LegionHub.Service.deps.json
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\bin\Debug\net8.0\LegionHub.Service.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\bin\Debug\net8.0\LegionHub.Service.pdb
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\LegionHub.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\LegionHub.Service.AssemblyInfoInputs.cache
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\LegionHub.Service.AssemblyInfo.cs
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\LegionHub.Service.csproj.CoreCompileInputs.cache
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\LegionHub.Service.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\refint\LegionHub.Service.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\LegionHub.Service.pdb
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Service\obj\Debug\net8.0\ref\LegionHub.Service.dll

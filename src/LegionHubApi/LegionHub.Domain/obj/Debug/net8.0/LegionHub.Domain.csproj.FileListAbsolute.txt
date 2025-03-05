@@ -1,0 +1,11 @@
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\bin\Debug\net8.0\LegionHub.Domain.deps.json
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\bin\Debug\net8.0\LegionHub.Domain.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\bin\Debug\net8.0\LegionHub.Domain.pdb
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\LegionHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\LegionHub.Domain.AssemblyInfoInputs.cache
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\LegionHub.Domain.AssemblyInfo.cs
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\LegionHub.Domain.csproj.CoreCompileInputs.cache
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\LegionHub.Domain.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\refint\LegionHub.Domain.dll
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\LegionHub.Domain.pdb
+E:\Projetos\LegionHub\src\LegionHub\LegionHub.Domain\obj\Debug\net8.0\ref\LegionHub.Domain.dll

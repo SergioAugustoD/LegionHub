@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LegionHub.Infra.Data/1.0.0": {
+        "runtime": {
+          "LegionHub.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LegionHub.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

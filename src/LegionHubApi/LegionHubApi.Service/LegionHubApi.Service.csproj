@@ -10,4 +10,9 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LegionHubApi.Domain\LegionHubApi.Domain.csproj" />
+    <ProjectReference Include="..\LegionHubApi.Infra.Data\LegionHubApi.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

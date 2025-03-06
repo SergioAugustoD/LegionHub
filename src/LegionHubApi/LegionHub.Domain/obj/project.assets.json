@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Domain\\LegionHub.Domain.csproj",
-      "projectName": "LegionHub.Domain",
-      "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Domain\\LegionHub.Domain.csproj",
+      "projectUniqueName": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Domain\\LegionHubApi.Domain.csproj",
+      "projectName": "LegionHubApi.Domain",
+      "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Domain\\LegionHubApi.Domain.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Domain\\obj\\",
+      "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

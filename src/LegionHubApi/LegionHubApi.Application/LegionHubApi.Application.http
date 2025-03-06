@@ -1,0 +1,6 @@
+@LegionHubApi.Application_HostAddress = http://localhost:5162
+
+GET {{LegionHubApi.Application_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

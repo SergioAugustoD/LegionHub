@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("deb70798-8a83-44aa-9c94-47607645de21")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("980c80c0-c28d-4bab-96dc-bc71fbe55dca")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LegionHub.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f975b47a13ca26e4913c7152b6d4aaf658461327")]
 [assembly: System.Reflection.AssemblyProductAttribute("LegionHub.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LegionHub.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

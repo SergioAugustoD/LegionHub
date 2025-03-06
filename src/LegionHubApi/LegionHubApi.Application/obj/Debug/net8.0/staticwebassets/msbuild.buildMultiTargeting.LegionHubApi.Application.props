@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LegionHubApi.Application.props" />
+</Project>

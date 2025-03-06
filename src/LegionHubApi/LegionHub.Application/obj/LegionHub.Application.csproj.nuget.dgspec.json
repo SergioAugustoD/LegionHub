@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Application\\LegionHub.Application.csproj": {}
+    "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Application\\LegionHub.Application.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Application\\LegionHub.Application.csproj": {
+    "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Application\\LegionHub.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Application\\LegionHub.Application.csproj",
+        "projectUniqueName": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Application\\LegionHub.Application.csproj",
         "projectName": "LegionHub.Application",
-        "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Application\\LegionHub.Application.csproj",
+        "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Application\\LegionHub.Application.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Application\\obj\\",
+        "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

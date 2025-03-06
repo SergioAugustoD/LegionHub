@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ron1dlhEUiQ=",
+  "dgSpecHash": "qPie9crX52I=",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\LegionHub\\src\\LegionHub\\LegionHub.Application\\LegionHub.Application.csproj",
+  "projectFilePath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHub.Application\\LegionHubApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

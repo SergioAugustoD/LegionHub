@@ -1,0 +1,16 @@
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\bin\Debug\net9.0\LegionHubApi.Application.deps.json
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\bin\Debug\net9.0\LegionHubApi.Application.dll
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\bin\Debug\net9.0\LegionHubApi.Application.pdb
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\bin\Debug\net9.0\LegionHubApi.Domain.dll
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\bin\Debug\net9.0\LegionHubApi.Domain.pdb
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.csproj.AssemblyReference.cache
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.AssemblyInfoInputs.cache
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.AssemblyInfo.cs
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.csproj.CoreCompileInputs.cache
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.sourcelink.json
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHu.A0988E62.Up2Date
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.dll
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\refint\LegionHubApi.Application.dll
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\LegionHubApi.Application.pdb
+E:\Projetos\LegionHub\src\LegionHubApi\LegionHubApi.Application\obj\Debug\net9.0\ref\LegionHubApi.Application.dll

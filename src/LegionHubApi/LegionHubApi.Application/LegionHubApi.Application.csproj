@@ -1,21 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>179a5716-a1bb-4c9d-a111-ac8d038f40f9</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="AutoMapper" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\LegionHubApi.Domain\LegionHubApi.Domain.csproj" />
-    <ProjectReference Include="..\LegionHubApi.Service\LegionHubApi.Service.csproj" />
   </ItemGroup>
-
 </Project>

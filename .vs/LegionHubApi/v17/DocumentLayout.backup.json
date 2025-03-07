@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projetos\\LegionHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B00CD4-8D11-4307-9736-916A839F9D31}|src\\LegionHubApi\\LegionHubApi.Presentation\\LegionHubApi.Presentation.csproj|e:\\projetos\\legionhub\\src\\legionhubapi\\legionhubapi.presentation\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F8B00CD4-8D11-4307-9736-916A839F9D31}|src\\LegionHubApi\\LegionHubApi.Presentation\\LegionHubApi.Presentation.csproj|solutionrelative:src\\legionhubapi\\legionhubapi.presentation\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B00CD4-8D11-4307-9736-916A839F9D31}|src\\LegionHubApi\\LegionHubApi.Presentation\\LegionHubApi.Presentation.csproj|e:\\projetos\\legionhub\\src\\legionhubapi\\legionhubapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B00CD4-8D11-4307-9736-916A839F9D31}|src\\LegionHubApi\\LegionHubApi.Presentation\\LegionHubApi.Presentation.csproj|solutionrelative:src\\legionhubapi\\legionhubapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".env",
+              "DocumentMoniker": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "RelativeDocumentMoniker": "src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "ToolTip": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "RelativeToolTip": "src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-07T03:23:30.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\LegionHubApi\\LegionHubApi.Presentation\\Program.cs",
+              "ToolTip": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\LegionHubApi\\LegionHubApi.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:23:02.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

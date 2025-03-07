@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tgzmXRA01PsqQTgdgDud0kUyvdzl3NniQ8A4XJS9WCo=",
+  "Source": "LegionHubApi.Presentation",
+  "BasePath": "_content/LegionHubApi.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

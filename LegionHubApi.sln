@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{054A05A9-A9CB-45EE-97B8-C03911CD6589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LegionHubApi", "LegionHubApi", "{A7607234-A5FE-499E-BFD5-280B68D5BFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegionHubApi.Presentation", "src\LegionHubApi\LegionHubApi.Presentation\LegionHubApi.Presentation.csproj", "{F8B00CD4-8D11-4307-9736-916A839F9D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegionHubApi.Domain", "src\LegionHubApi\LegionHubApi.Domain\LegionHubApi.Domain.csproj", "{4F239537-32EC-4FB4-AD7E-58764A194D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegionHubApi.Application", "src\LegionHubApi\LegionHubApi.Application\LegionHubApi.Application.csproj", "{79ACDD63-5F45-4F85-A156-B64EF9CEC438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegionHubApi.Infrastructure", "src\LegionHubApi\LegionHubApi.Infrastructure\LegionHubApi.Infrastructure.csproj", "{FA21F400-13F1-4A16-A8CC-BAC45C69A916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B00CD4-8D11-4307-9736-916A839F9D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B00CD4-8D11-4307-9736-916A839F9D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B00CD4-8D11-4307-9736-916A839F9D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B00CD4-8D11-4307-9736-916A839F9D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F239537-32EC-4FB4-AD7E-58764A194D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F239537-32EC-4FB4-AD7E-58764A194D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F239537-32EC-4FB4-AD7E-58764A194D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F239537-32EC-4FB4-AD7E-58764A194D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79ACDD63-5F45-4F85-A156-B64EF9CEC438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79ACDD63-5F45-4F85-A156-B64EF9CEC438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79ACDD63-5F45-4F85-A156-B64EF9CEC438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79ACDD63-5F45-4F85-A156-B64EF9CEC438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7607234-A5FE-499E-BFD5-280B68D5BFC9} = {054A05A9-A9CB-45EE-97B8-C03911CD6589}
+		{F8B00CD4-8D11-4307-9736-916A839F9D31} = {A7607234-A5FE-499E-BFD5-280B68D5BFC9}
+		{4F239537-32EC-4FB4-AD7E-58764A194D64} = {A7607234-A5FE-499E-BFD5-280B68D5BFC9}
+		{79ACDD63-5F45-4F85-A156-B64EF9CEC438} = {A7607234-A5FE-499E-BFD5-280B68D5BFC9}
+		{FA21F400-13F1-4A16-A8CC-BAC45C69A916} = {A7607234-A5FE-499E-BFD5-280B68D5BFC9}
+	EndGlobalSection
+EndGlobal

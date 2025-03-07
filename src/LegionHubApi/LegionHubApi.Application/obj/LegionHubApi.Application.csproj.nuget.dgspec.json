@@ -13,6 +13,8 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -22,26 +24,26 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\LegionHubApi.Domain.csproj": {
                 "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\LegionHubApi.Domain.csproj"
-              },
-              "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Service\\LegionHubApi.Service.csproj": {
-                "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Service\\LegionHubApi.Service.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1507"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -54,17 +56,27 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[1.21.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[7.3.1, )"
+              "version": "[14.0.0, )",
+              "versionCentrallyManaged": true
             }
+          },
+          "centralPackageVersions": {
+            "AutoMapper": "14.0.0",
+            "dotenv.net": "3.2.1",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.2",
+            "Microsoft.AspNetCore.OpenApi": "9.0.2",
+            "Microsoft.EntityFrameworkCore": "9.0.2",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.2",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
+            "Microsoft.IdentityModel.Tokens": "8.6.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "Swashbuckle.AspNetCore": "7.3.1",
+            "Swashbuckle.AspNetCore.Swagger": "7.3.1"
           },
           "imports": [
             "net461",
@@ -78,9 +90,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -98,6 +107,8 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -107,102 +118,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
+          "noWarn": [
+            "NU1507"
           ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infra.Data\\LegionHubApi.Infra.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infra.Data\\LegionHubApi.Infra.Data.csproj",
-        "projectName": "LegionHubApi.Infra.Data",
-        "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infra.Data\\LegionHubApi.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infra.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\LegionHubApi.Domain.csproj": {
-                "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\LegionHubApi.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
@@ -215,90 +146,21 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Npgsql": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[9.0.4, )"
-            }
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "AutoMapper": "14.0.0",
+            "dotenv.net": "3.2.1",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.2",
+            "Microsoft.AspNetCore.OpenApi": "9.0.2",
+            "Microsoft.EntityFrameworkCore": "9.0.2",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.2",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
+            "Microsoft.IdentityModel.Tokens": "8.6.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "Swashbuckle.AspNetCore": "7.3.1",
+            "Swashbuckle.AspNetCore.Swagger": "7.3.1"
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Service\\LegionHubApi.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Service\\LegionHubApi.Service.csproj",
-        "projectName": "LegionHubApi.Service",
-        "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Service\\LegionHubApi.Service.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\LegionHubApi.Domain.csproj": {
-                "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Domain\\LegionHubApi.Domain.csproj"
-              },
-              "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infra.Data\\LegionHubApi.Infra.Data.csproj": {
-                "projectPath": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infra.Data\\LegionHubApi.Infra.Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

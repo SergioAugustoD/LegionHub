@@ -1,12 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projetos\\LegionHub\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA21F400-13F1-4A16-A8CC-BAC45C69A916}|src\\LegionHubApi\\LegionHubApi.Infrastructure\\LegionHubApi.Infrastructure.csproj|e:\\projetos\\legionhub\\src\\legionhubapi\\legionhubapi.infrastructure\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FA21F400-13F1-4A16-A8CC-BAC45C69A916}|src\\LegionHubApi\\LegionHubApi.Infrastructure\\LegionHubApi.Infrastructure.csproj|solutionrelative:src\\legionhubapi\\legionhubapi.infrastructure\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B00CD4-8D11-4307-9736-916A839F9D31}|src\\LegionHubApi\\LegionHubApi.Presentation\\LegionHubApi.Presentation.csproj|e:\\projetos\\legionhub\\src\\legionhubapi\\legionhubapi.presentation\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F8B00CD4-8D11-4307-9736-916A839F9D31}|src\\LegionHubApi\\LegionHubApi.Presentation\\LegionHubApi.Presentation.csproj|solutionrelative:src\\legionhubapi\\legionhubapi.presentation\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F70834A-07B8-4BFC-A322-22A508601758}|docker-compose.dcproj|e:\\projetos\\legionhub\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1F70834A-07B8-4BFC-A322-22A508601758}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".env",
+              "DocumentMoniker": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infrastructure\\.env",
+              "RelativeDocumentMoniker": "src\\LegionHubApi\\LegionHubApi.Infrastructure\\.env",
+              "ToolTip": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Infrastructure\\.env",
+              "RelativeToolTip": "src\\LegionHubApi\\LegionHubApi.Infrastructure\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-08T17:22:06.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "RelativeDocumentMoniker": "src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "ToolTip": "E:\\Projetos\\LegionHub\\src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "RelativeToolTip": "src\\LegionHubApi\\LegionHubApi.Presentation\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-08T17:21:59.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "E:\\Projetos\\LegionHub\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "E:\\Projetos\\LegionHub\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-08T17:18:09.225Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

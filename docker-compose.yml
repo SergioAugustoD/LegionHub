@@ -1,0 +1,42 @@
+services:
+  legionhubapi.presentation:
+    image: ${DOCKER_REGISTRY-}legionhubapipresentation
+    build:
+      context: .
+      dockerfile: src/LegionHubApi/LegionHubApi.Presentation/Dockerfile
+    ports:
+      - "5257:5257"
+    environment:
+      - ASPNETCORE_URLS=http://+:5257
+      - ConnectionStrings__DefaultConnection=${CONNECTIONSTRING}
+  legionhubapi-db:
+    env_file: ".env"
+    image: postgres
+    container_name: legionhubapi-db
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_USER: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+  legionhubapi-pgadmin:
+    
+    image: dpage/pgadmin4:latest
+    container_name: legionhubapi-pgadmin
+    restart: always
+    depends_on:
+      - legionhubapi-db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@localhost.com
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    ports:
+      - 8080:80
+    volumes:
+      - ./data/pgadmin:/var/lib/pgadmin
+networks:
+  default:
+    name: local-network
+    external: true
+

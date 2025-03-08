@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LegionHubApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0de6b55f7f303cf1f86a0e3f275ec1b2b915b0bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8d98cf52783622494cfbcd215e4be83976d0682")]
 [assembly: System.Reflection.AssemblyProductAttribute("LegionHubApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LegionHubApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

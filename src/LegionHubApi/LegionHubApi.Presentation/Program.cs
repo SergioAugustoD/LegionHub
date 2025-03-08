@@ -1,4 +1,7 @@
+using LegionHubApi.Application.Services;
+using LegionHubApi.Domain.Interfaces;
 using LegionHubApi.Infrastructure.Data;
+using LegionHubApi.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -17,6 +20,11 @@ builder.Services.AddAutoMapper(typeof(LegionHubApi.Application.Mappings.MappingP
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddDbContext<LegionHubContext>();
+
+builder.Services.AddTransient<IUserRepository, UserRepository>();
+
+builder.Services.AddTransient<IUserService, UserService>();
+
 
 var secretKey = Environment.GetEnvironmentVariable("SECRET_JWT_TOKEN");
 var key = Encoding.ASCII.GetBytes(secretKey);

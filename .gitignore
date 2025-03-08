@@ -1,0 +1,62 @@
+# Arquivos e pastas gerados pelo .NET
+bin/
+obj/
+*.csproj.user
+*.suo
+*.user
+*.sln.docstates
+*.pdb
+*.cache
+*.dll
+*.exe
+*.nupkg
+*.snk
+
+# Pastas de build e publicação
+/build/
+/publish/
+/app/build/
+/app/publish/
+
+# Dependências do NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Arquivos de configuração sensíveis
+appsettings.*.json  # Ignora appsettings.Development.json, etc., mas mantém appsettings.json no controle se desejar
+!appsettings.json   # Mantém o appsettings.json base no git
+
+# Arquivos do Rider (JetBrains)
+.idea/
+*.iml
+
+# Arquivos do Visual Studio (caso use em algum momento)
+*.vs/
+*.vscode/
+*.sln.ide/
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de ambiente Docker
+.env             # Ignora o arquivo .env com senhas e configurações sensíveis
+docker-compose.override.yml  # Ignora overrides locais
+
+# Volumes e dados do Docker
+data/            # Ignora a pasta de dados do PostgreSQL e pgAdmin
+*.dockerignore
+
+# Arquivos de testes
+test-results/
+*.trx
+
+# Outros
+Thumbs.db
+.DS_Store

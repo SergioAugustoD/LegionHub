@@ -5,14 +5,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LegionHubApi.Application\LegionHubApi.Application.csproj" />
-    <ProjectReference Include="..\LegionHubApi.Domain\LegionHubApi.Domain.csproj" />
+    <PackageReference Include="dotenv.net" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="dotenv.net" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" />
-    <PackageReference Include="Microsoft.IdentityModel.Tokens" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <ProjectReference Include="..\LegionHubApi.Application\LegionHubApi.Application.csproj" />
+    <ProjectReference Include="..\LegionHubApi.Domain\LegionHubApi.Domain.csproj" />
   </ItemGroup>
 </Project>

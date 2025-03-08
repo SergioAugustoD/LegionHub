@@ -15,13 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegionHubApi.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegionHubApi.Infrastructure", "src\LegionHubApi\LegionHubApi.Infrastructure\LegionHubApi.Infrastructure.csproj", "{FA21F400-13F1-4A16-A8CC-BAC45C69A916}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1F70834A-07B8-4BFC-A322-22A508601758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F8B00CD4-8D11-4307-9736-916A839F9D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,6 +39,13 @@ Global
 		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA21F400-13F1-4A16-A8CC-BAC45C69A916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F70834A-07B8-4BFC-A322-22A508601758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F70834A-07B8-4BFC-A322-22A508601758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F70834A-07B8-4BFC-A322-22A508601758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F70834A-07B8-4BFC-A322-22A508601758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7607234-A5FE-499E-BFD5-280B68D5BFC9} = {054A05A9-A9CB-45EE-97B8-C03911CD6589}

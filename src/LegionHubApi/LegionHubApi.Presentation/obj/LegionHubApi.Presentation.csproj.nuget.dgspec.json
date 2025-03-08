@@ -73,10 +73,14 @@
             "Microsoft.EntityFrameworkCore": "9.0.2",
             "Microsoft.EntityFrameworkCore.Design": "9.0.2",
             "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
-            "Microsoft.IdentityModel.Tokens": "8.6.0",
+            "Microsoft.IdentityModel.Tokens": "8.6.1",
+            "Microsoft.OpenApi": "1.6.23",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
             "Swashbuckle.AspNetCore": "7.3.1",
-            "Swashbuckle.AspNetCore.Swagger": "7.3.1"
+            "Swashbuckle.AspNetCore.Swagger": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerGen": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerUI": "7.3.1"
           },
           "imports": [
             "net461",
@@ -156,10 +160,14 @@
             "Microsoft.EntityFrameworkCore": "9.0.2",
             "Microsoft.EntityFrameworkCore.Design": "9.0.2",
             "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
-            "Microsoft.IdentityModel.Tokens": "8.6.0",
+            "Microsoft.IdentityModel.Tokens": "8.6.1",
+            "Microsoft.OpenApi": "1.6.23",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
             "Swashbuckle.AspNetCore": "7.3.1",
-            "Swashbuckle.AspNetCore.Swagger": "7.3.1"
+            "Swashbuckle.AspNetCore.Swagger": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerGen": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerUI": "7.3.1"
           },
           "imports": [
             "net461",
@@ -239,19 +247,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[9.0.2, )",
-              "versionCentrallyManaged": true
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )",
-              "versionCentrallyManaged": true
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[8.6.0, )",
               "versionCentrallyManaged": true
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
@@ -273,10 +271,14 @@
             "Microsoft.EntityFrameworkCore": "9.0.2",
             "Microsoft.EntityFrameworkCore.Design": "9.0.2",
             "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
-            "Microsoft.IdentityModel.Tokens": "8.6.0",
+            "Microsoft.IdentityModel.Tokens": "8.6.1",
+            "Microsoft.OpenApi": "1.6.23",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
             "Swashbuckle.AspNetCore": "7.3.1",
-            "Swashbuckle.AspNetCore.Swagger": "7.3.1"
+            "Swashbuckle.AspNetCore.Swagger": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerGen": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerUI": "7.3.1"
           },
           "imports": [
             "net461",
@@ -356,38 +358,34 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.2, )",
               "versionCentrallyManaged": true
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[8.6.1, )",
               "versionCentrallyManaged": true
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.OpenApi": {
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[1.6.23, )",
               "versionCentrallyManaged": true
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[1.21.0, )",
               "versionCentrallyManaged": true
             },
-            "Swashbuckle.AspNetCore": {
+            "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[7.3.1, )",
               "versionCentrallyManaged": true
             },
-            "dotenv.net": {
+            "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[3.2.1, )",
+              "version": "[7.3.1, )",
               "versionCentrallyManaged": true
             }
           },
@@ -399,10 +397,14 @@
             "Microsoft.EntityFrameworkCore": "9.0.2",
             "Microsoft.EntityFrameworkCore.Design": "9.0.2",
             "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
-            "Microsoft.IdentityModel.Tokens": "8.6.0",
+            "Microsoft.IdentityModel.Tokens": "8.6.1",
+            "Microsoft.OpenApi": "1.6.23",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
             "Swashbuckle.AspNetCore": "7.3.1",
-            "Swashbuckle.AspNetCore.Swagger": "7.3.1"
+            "Swashbuckle.AspNetCore.Swagger": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerGen": "7.3.1",
+            "Swashbuckle.AspNetCore.SwaggerUI": "7.3.1"
           },
           "imports": [
             "net461",
